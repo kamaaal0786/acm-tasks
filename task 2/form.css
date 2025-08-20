@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    align-items: center;
+    text-align: center;
+    margin-left:1%;
+    display: blo;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: xx-large;
+}
+form{
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    border: solid black;
+    display:inline-block;
+    margin-left: 40%;
+    padding: 37px;
+    border-radius: 10px;
+    background-color: rgb(232, 209, 253);
+    font-size: large;
+}
+.username{
+    height: 20px;
+}
+.password{
+    height: 20px;
+}
+.EmailAddress{
+    height: 20px;
+}
+.submit{
+    cursor: pointer;
+    height: 35px;
+    
+}
+
