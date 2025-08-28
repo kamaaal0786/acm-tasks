@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: aliceblue;
 }
 
 nav {
@@ -14,14 +15,14 @@ nav {
 
 .box1 {
     padding: 10px;
-    margin-right: 950px;
+    margin-right: 1000px;
 }
 
 .box {
-    padding: 12px;
+    padding: 13px;
 }
 
-a {
+.box a {
     text-decoration: none;
     color: black;
     font-size: large;
@@ -29,7 +30,6 @@ a {
 
 main {
     display: flex;
-    /* flex-wrap: nowrap; */
     align-items: center;
     justify-content: space-between;
     gap: 48px;
@@ -61,6 +61,11 @@ main {
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
+   
+}
+.textbox a{
+    text-decoration: none;
+    color: white;
 }
 
 .textbox button:hover {
@@ -82,7 +87,8 @@ img {
 
 
 }
-h3{
-    font-size:x-large;
-    
+
+h3 {
+    font-size: x-large;
+
 }
