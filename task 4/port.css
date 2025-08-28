@@ -42,13 +42,13 @@ main {
 }
 
 .textbox h2 {
-    font-size: 2.8rem;
+    font-size: 45px;
     margin: 0 0 18px 0;
     line-height: 1.25;
 }
 
 .textbox p {
-    font-size: 1.1rem;
+    font-size: 18px;
     margin-bottom: 22px;
     color: #333;
 }
