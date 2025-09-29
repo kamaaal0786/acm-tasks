@@ -4,39 +4,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACM PORTFOLIO</title>
+    <title>Kamaal Magdoom - Frontend Developer</title>
     <link rel="stylesheet" href="port.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
 
-        <div class="box1">Portfolio</div>
+    <!-- Header -->
+    <header id="header">
+        <nav class="container">
+            <a href="#" class="logo">KM.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-right">
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <button id="hamburger-menu" aria-label="Open menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
 
-        <div class="box"><a href="/">Home</a></div>
-        <div class="box"><a href="/">About</a></div>
-        <div class="box"><a href="/">Projects</a></div>
-        <div class="box"><a href="/">Contact</a></div>
-    </nav>
-    <img src="https://designnotes.blog.gov.uk/wp-content/uploads/sites/53/2020/06/Portfolio-Desk.jpg" alt="portpic">
     <main>
-        <div class="textbox">
-        <h2>
-            Welcome to my Portfolio
-        </h2>
-        <p>I'm a web developer specializing
-            in front-end development</p>
-        <button><a href="https://github.com/kamaaal0786/acm-tasks.git">View Projects</a></button>
-        
-        </div>
+        <!-- Hero Section -->
+        <section id="hero" class="container animate-on-scroll">
+            <div class="hero-text">
+                <h1>Hi, I'm Kamaal Magdoom</h1>
+                <p class="subtitle">A passionate Frontend Developer creating modern and responsive web applications.</p>
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="WhatsApp Image 2025-09-05 at 20.24.18_1cd689fa.jpg" alt="Kamaal Magdoom Portrait">
+            </div>
+        </section>
 
+        <!-- About Section -->
+        <section id="about" class="container animate-on-scroll">
+            <h2>About Me</h2>
+            <p>I'm a frontend developer with a knack for building beautiful, user-friendly interfaces. With a strong
+                foundation in HTML, CSS, and JavaScript, I specialize in bringing ideas to life in the browser. I'm
+                always eager to learn new technologies and improve my craft.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h2 class="animate-on-scroll">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card animate-on-scroll">
+                    <img src="https://placehold.co/64x64/f0f0f0/333?text=HTML5" alt="HTML5 Icon">
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="https://placehold.co/64x64/f0f0f0/333?text=CSS3" alt="CSS3 Icon">
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-card animate-on-scroll">
+                    <img src="https://placehold.co/64x64/f0f0f0/333?text=JS" alt="JavaScript Icon">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <div class="fp">
+                <h2 class="animate-on-scroll">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <img src="https://placehold.co/600x400/2563eb/FFFFFF?text=Project+One" alt="Project One Screenshot">
+                    <div class="project-info">
+                        <h3>Form Template</h3>
+                        <p>A fully responsive form template project built with HTML, CSS, and JS.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <img src="https://placehold.co/600x400/3b82f6/FFFFFF?text=Project+Two" alt="Project Two Screenshot">
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A productivity app with insert and delete functionality.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate-on-scroll">
+                    <img src="https://placehold.co/600x400/1d4ed8/FFFFFF?text=Project+Three"
+                        alt="Project Three Screenshot">
+                    <div class="project-info">
+                        <h3>Portfolio Template</h3>
+                        <p>A sleek, animated portfolio website template for developers.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live Demo</a>
+                            <a href="#" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container animate-on-scroll">
+            <div class="touch"><h2>Get In Touch</h2></div>
+            <p>I'm currently open to new opportunities. Click my email below to copy it.</p>
+            <button id="copy-email-btn" class="btn">kamaalmagdoomaf2006@gmail.com
+            </button>
+        </section>
     </main>
-    <div class="info">
-        <h3>About Me</h3>
-        I have a passion for creating user-friendly websites and I love to
-        learn new things.
-    </div>
 
+    <!-- Footer -->
+    <footer>
+        
+           
+    </footer>
+
+    <script src="port.js"></script>
 </body>
 
 </html>
